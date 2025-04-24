@@ -1,0 +1,7 @@
+fastapi              # Web framework for building APIs
+uvicorn              # ASGI server to run FastAPI
+pydantic             # Used by FastAPI for data validation
+python-multipart     # Needed to handle file uploads (like PDF resumes)
+PyMuPDF              # PDF parser for reading text from uploaded resumes
+requests             # To call Ollama API over HTTP
+langgraph            # For managing conversation flows with LLMs
